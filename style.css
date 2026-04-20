@@ -1,19 +1,31 @@
 body{
-    background-color: black;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
 }
 
-#card{
-    background-color: whitesmoke;
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-     
-    
-}
 h5{
-    color: red;
+    color: antiquewhite;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1{
+    padding: 10px 20px;
+    background-color: gainsboro;
+    letter-spacing: 5px;
+    font-family: monospace;
+    margin: 30px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
 }
