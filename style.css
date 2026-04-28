@@ -4,28 +4,32 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    flex-direction: column;
+    
     gap: 20px;
-    background-color: black;
+    
 }
 
-h5{
-    color: antiquewhite;
-    font-size: 100px;
-    font-family: 'Times New Roman', Times, serif;
+#hero{
+    font-size: 40px;
 
 }
-
-h1{
-    padding: 10px 20px;
-    background-color: gainsboro;
-    letter-spacing: 5px;
-    font-family: monospace;
-    margin: 30px;
-}
-
-button{
-    padding: 10px 20px;
+img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
     border-radius: 5px;
-    font-size: 20px;
+
+}
+
+.btn{
+    background-color: lightblue;
+    color: black;
+    gap: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    
+}
+
+.btn:active{
+    scale: 0.95;
 }
